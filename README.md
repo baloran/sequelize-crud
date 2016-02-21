@@ -1,5 +1,6 @@
 [![Dependency Status](https://david-dm.org/baloran/sequelize-crud.svg?style=flat)](https://david-dm.org/baloran/sequelize-crud)
 [![devDependency Status](https://david-dm.org/baloran/sequelize-crud/dev-status.svg?style=flat)](https://david-dm.org/baloran/sequelize-crud#info=devDependencies)
+[![Flattr](http://button.flattr.com/flattr-badge-large.png)](https://flattr.com/submit/auto?fid=dj6odn&url=https%3A%2F%2Fgithub.com%2Fbaloran%2Fsequelize-crud)
 
 # Sequelize Crud
 
