@@ -72,7 +72,7 @@ function input (type, name) {
 
   if (options.theme == "bootstrap") {
     $input('div').addClass("form-group");
-    $input("<label class=" + ((options.theme == 'bootstrap') ? 'control-form' : '') + " for=" + name + ">" + name.replace('_', ' ') + "</label><input type=" + getType(type.type) + " name=" + name + " id=" + name + "/>").appendTo(".form-group");
+    $input("<label for=" + name + ">" + name.replace('_', ' ') + "</label><input class=" + ((options.theme == 'bootstrap') ? 'form-control' : '') + " type=" + getType(type.type) + " name=" + name + " id=" + name + "/>").appendTo(".form-group");
   } else {
     $input.append("<label for=" + name + ">" + name.replace('_', ' ') + "</label><input type=" + getType(type.type) + " name=" + name + " id=" + name + "/>");
   }
