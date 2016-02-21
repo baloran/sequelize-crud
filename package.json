@@ -1,0 +1,21 @@
+{
+  "name": "sequelize-crud",
+  "version": "1.0.0",
+  "description": "Make crud easyli thanks to sequelize",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnaud Allouis aka Baloran",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "cli": "^0.11.1",
+    "colors": "^1.1.2",
+    "inquirer": "^0.12.0",
+    "mysql": "^2.10.2",
+    "prompt": "^1.0.0",
+    "sequelize": "^3.19.3",
+    "underscore": "^1.8.3"
+  }
+}
